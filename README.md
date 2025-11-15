@@ -21,13 +21,6 @@ The internal menu looks identical to external. (FIX: should be changed)\
 You can get out of there with holding (minimal) both left and right buttons.
 TODO
 
-In a nutshell of the code:
-* class API at line 39 to 456:\
-This contains all of the logic on robot control. This can be completely ignored.
-* main() at line 456 to 532:\
-This contains the loop. TODO
-* exec_0() exec_1() etc at line 532 to setup:
-
 ### Closer look at the program
 The internal menu gives us direct control over the and has a slight performance improvement.\
 TODO
