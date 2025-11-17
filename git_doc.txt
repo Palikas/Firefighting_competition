@@ -1,0 +1,15 @@
+1. Dostat sa do priecinku s ostatnymi subormi: cd {~/cesta/...}
+2. Vymazat .git priecinok ktory tam nepatri: rm -rf .git
+3. Vytvorit novy subor .git:
+git init
+git add .
+git commit -m "Add projecct files"
+4. Vytvorit si "remote" na github repo:
+git remote add origin https://github.com/{nazov_uctu}/{nazov_repo}.git
+5. Pushnut na github repo:
+ked je branch Main tak:
+    git branch -M Main
+    git push -u origin Main
+ked je branch Master tak:
+    git push -u origin master
+6. Pull (este neviem... potom pridam)
